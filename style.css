@@ -9,3 +9,8 @@ h1{ font-size: 40px; margin: 0 0 12px; }
 a{ color:#0b4f6c; text-decoration:none; }
 a:hover{ text-decoration:underline; }
 small{ color:#666; }
+header nav { margin: 12px 0 20px; }
+main h2 { margin-top: 28px; }
+ul { padding-left: 1.2em; }
+h2 { margin-top: 28px; }
+h3 { margin-top: 20px; }
