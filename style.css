@@ -118,3 +118,6 @@ img{
 .toc a:hover {
   text-decoration: underline;
 }
+p {
+  margin: 0 0 1.1em;
+}
