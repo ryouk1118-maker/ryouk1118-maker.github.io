@@ -99,7 +99,14 @@ img{
 }
 
 .toc li {
-  margin: 12px 0;
+  margin: 0;
+  padding: 14px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+.toc li:first-child {
+  border-top: none;
+  padding-top: 0;
 }
 
 .toc a {
@@ -110,12 +117,4 @@ img{
 
 .toc a:hover {
   text-decoration: underline;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-h2 {
-  scroll-margin-top: 24px;
 }
