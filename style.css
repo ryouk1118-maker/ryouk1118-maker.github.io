@@ -135,3 +135,66 @@ ol li{
     padding: 20px;
   }
 }
+/* サイト上部 */
+.site-header{
+  margin-bottom: 40px;
+}
+
+.site-description{
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.site-nav{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.site-nav a{
+  font-weight: 600;
+}
+
+/* 記事一覧 */
+.post-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card{
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  padding: 20px 22px;
+  background: #fafafa;
+}
+
+.post-card h3{
+  margin: 0 0 8px;
+}
+
+.post-card h3 a{
+  color: #222;
+}
+
+.post-card h3 a:hover{
+  color: #0b4f6c;
+}
+
+.post-meta{
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.post-excerpt{
+  color: #444;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px){
+  .post-card{
+    padding: 18px;
+  }
+}
