@@ -586,7 +586,9 @@ a {
 }
 
 
-/* 記事上部 */
+/* =====================
+   ARTICLE HERO
+===================== */
 
 .article-hero {
   padding: 66px 0 62px;
@@ -660,7 +662,9 @@ a {
 }
 
 
-/* 本文 */
+/* =====================
+   ARTICLE BODY
+===================== */
 
 .article-content {
   width: min(760px, calc(100% - 40px));
@@ -683,7 +687,9 @@ a {
 }
 
 
-/* この記事のポイント */
+/* =====================
+   ARTICLE POINTS
+===================== */
 
 .article-points {
   margin: 38px 0 42px;
@@ -719,7 +725,9 @@ a {
 }
 
 
-/* 目次 */
+/* =====================
+   TABLE OF CONTENTS
+===================== */
 
 .toc {
   margin: 42px 0 52px;
@@ -767,7 +775,9 @@ a {
 }
 
 
-/* 記事見出し */
+/* =====================
+   ARTICLE SECTIONS
+===================== */
 
 .article-section {
   scroll-margin-top: 110px;
@@ -789,7 +799,7 @@ a {
   font-size: 20px;
 }
 
-.article-content ul:not(.article-points ul),
+.article-content ul,
 .article-content ol {
   margin: 18px 0 26px;
   padding-left: 1.5em;
@@ -801,14 +811,16 @@ a {
 }
 
 
-/* 小さな強調ボックス */
+/* =====================
+   NOTE BOX
+===================== */
 
 .article-note {
   margin: 30px 0;
   padding: 22px 24px;
+  border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--soft);
-  border: 1px solid var(--line);
 }
 
 .article-note p:last-child {
@@ -816,7 +828,9 @@ a {
 }
 
 
-/* 臨床ノート */
+/* =====================
+   CLINICAL NOTE
+===================== */
 
 .clinical-note {
   margin: 64px -22px 50px;
@@ -848,6 +862,12 @@ a {
   margin: 4px 0 24px;
   padding: 0;
   border: 0;
+  color: var(--ink);
+}
+
+.clinical-note p,
+.clinical-note li {
+  color: #3f5663;
 }
 
 .clinical-note p:last-child {
@@ -855,55 +875,63 @@ a {
 }
 
 
-/* まとめ */
+/* =====================
+   SUMMARY
+===================== */
 
 .summary-box {
   margin: 64px 0 48px;
-  padding: 32px 34px;
+  padding: 34px 36px;
   border-radius: 20px;
-  color: white;
   background:
     linear-gradient(
       135deg,
-      var(--blue-dark) 0%,
-      var(--blue) 100%
+      #12445b 0%,
+      #1d5d78 100%
     );
+  box-shadow: 0 18px 42px rgba(18, 68, 91, 0.16);
 }
 
 .summary-box h2 {
-  margin: 0 0 20px;
+  margin: 0 0 22px;
   padding: 0;
   border: 0;
-  color: white;
+  color: #ffffff !important;
+}
+
+.summary-box p,
+.summary-box li,
+.summary-box strong,
+.summary-box a {
+  color: #ffffff !important;
 }
 
 .summary-box p {
-  color: #edf7fa;
+  opacity: 1;
 }
 
 .summary-box p:last-child {
   margin-bottom: 0;
 }
 
-.summary-box strong {
-  color: white;
-}
 
-
-/* 参考文献 */
+/* =====================
+   REFERENCES
+===================== */
 
 .references-box {
   margin-top: 62px;
   padding: 30px 32px;
+  border: 1px solid var(--line);
   border-radius: 18px;
   background: var(--soft);
-  border: 1px solid var(--line);
 }
 
 .references-box h2 {
   margin: 0 0 20px;
   padding: 0;
   border: 0;
+  color: var(--ink);
   font-size: 23px;
 }
 
@@ -920,7 +948,9 @@ a {
 }
 
 
-/* 著者カード */
+/* =====================
+   AUTHOR
+===================== */
 
 .article-author {
   display: grid;
@@ -970,7 +1000,9 @@ a {
 }
 
 
-/* 記事下部リンク */
+/* =====================
+   BACK HOME
+===================== */
 
 .back-home {
   margin-top: 38px;
@@ -1075,7 +1107,7 @@ a {
   }
 
 
-  /* 記事ページ */
+  /* ARTICLE */
 
   .article-hero {
     padding: 42px 0 44px;
@@ -1121,7 +1153,7 @@ a {
 
   .summary-box {
     margin-top: 50px;
-    padding: 26px 22px;
+    padding: 28px 24px;
   }
 
   .references-box {
