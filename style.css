@@ -1166,4 +1166,594 @@ a {
   }
 
 }
-```
+```/* =========================================
+   水色トーン強化
+   医療系・清潔感を保ちながら少し明るく調整
+========================================= */
+
+:root {
+  --medical-blue: #4aa9d8;
+  --medical-blue-dark: #2579a7;
+  --medical-blue-deep: #165d82;
+  --medical-sky: #e8f7fd;
+  --medical-sky-light: #f4fbff;
+  --medical-border: #cfeaf6;
+}
+
+
+/* -----------------------------------------
+   ページ全体
+----------------------------------------- */
+
+body {
+  background:
+    linear-gradient(
+      180deg,
+      #f7fcff 0%,
+      #ffffff 32%,
+      #f5fbfe 100%
+    );
+}
+
+
+/* -----------------------------------------
+   ヘッダー
+----------------------------------------- */
+
+.site-header {
+  background: rgba(247, 252, 255, 0.96);
+  border-bottom: 1px solid #d4edf7;
+  box-shadow: 0 4px 22px rgba(38, 130, 171, 0.07);
+}
+
+
+/* ブランドアイコン */
+
+.brand-mark {
+  background:
+    linear-gradient(
+      135deg,
+      #63c4eb,
+      #278bb9
+    );
+
+  box-shadow:
+    0 7px 18px rgba(43, 147, 190, 0.25);
+}
+
+
+/* ナビゲーション */
+
+.global-nav a:hover,
+.global-nav a.active {
+  color: var(--medical-blue-dark);
+}
+
+
+/* -----------------------------------------
+   トップページ HERO
+----------------------------------------- */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 86% 15%,
+      rgba(120, 210, 242, 0.28),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 5% 90%,
+      rgba(172, 226, 247, 0.32),
+      transparent 34%
+    ),
+    linear-gradient(
+      135deg,
+      #edf9fe 0%,
+      #f8fdff 45%,
+      #e3f5fc 100%
+    );
+}
+
+
+/* HEROに薄い装飾を追加 */
+
+.hero::before {
+  content: "";
+  position: absolute;
+
+  width: 420px;
+  height: 420px;
+
+  right: -170px;
+  top: -180px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(80, 185, 226, 0.18),
+      rgba(185, 230, 248, 0.05)
+    );
+
+  pointer-events: none;
+}
+
+
+.hero::after {
+  content: "";
+
+  position: absolute;
+
+  width: 220px;
+  height: 220px;
+
+  left: -90px;
+  bottom: -130px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(99, 195, 233, 0.10);
+
+  pointer-events: none;
+}
+
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* HEROタイトル */
+
+.hero h1 span {
+  color: #2585b0;
+}
+
+
+/* HERO説明文 */
+
+.hero-lead {
+  color: #436775;
+}
+
+
+/* -----------------------------------------
+   小見出し
+----------------------------------------- */
+
+.eyebrow {
+  color: #2b91ba;
+  letter-spacing: 0.12em;
+}
+
+
+/* -----------------------------------------
+   HERO右側カード
+----------------------------------------- */
+
+.hero-card {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.98),
+      rgba(231, 247, 253, 0.98)
+    );
+
+  border: 1px solid #caeaf6;
+
+  box-shadow:
+    0 22px 55px rgba(38, 129, 168, 0.14);
+}
+
+
+.card-kicker {
+  color: #237ea7;
+}
+
+
+/* テーマ番号 */
+
+.topic-list li span {
+  background: #e0f4fb;
+  color: #277fa8;
+  border: 1px solid #c1e6f4;
+}
+
+
+/* -----------------------------------------
+   ボタン
+----------------------------------------- */
+
+.button.primary {
+  background:
+    linear-gradient(
+      135deg,
+      #56bde5,
+      #267fa9
+    );
+
+  box-shadow:
+    0 10px 25px rgba(36, 132, 174, 0.25);
+}
+
+
+.button.primary:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 13px 30px rgba(36, 132, 174, 0.32);
+}
+
+
+.button.secondary {
+  border-color: #9fd5e9;
+  color: #267da4;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+
+.button.secondary:hover {
+  background: #e8f7fd;
+  border-color: #72c3e1;
+}
+
+
+/* -----------------------------------------
+   セクション
+----------------------------------------- */
+
+.section-heading h2 {
+  color: #183e50;
+}
+
+
+.section-heading > p {
+  color: #68828d;
+}
+
+
+/* -----------------------------------------
+   記事カード
+----------------------------------------- */
+
+.article-card {
+  border: 1px solid #d2ebf5;
+
+  background:
+    linear-gradient(
+      155deg,
+      #ffffff 0%,
+      #fbfeff 65%,
+      #eef9fd 100%
+    );
+
+  box-shadow:
+    0 12px 30px rgba(48, 123, 153, 0.08);
+}
+
+
+.article-card:hover {
+  transform: translateY(-5px);
+
+  border-color: #a9dced;
+
+  box-shadow:
+    0 18px 40px rgba(44, 129, 166, 0.16);
+}
+
+
+/* 最新記事 */
+
+.article-card.featured {
+  border: 1px solid #84cfe9;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff 0%,
+      #edf9fe 100%
+    );
+
+  box-shadow:
+    0 18px 45px rgba(45, 139, 177, 0.18);
+}
+
+
+.article-card.featured::before {
+  background:
+    linear-gradient(
+      90deg,
+      #68c9ec,
+      #2b91bb
+    );
+}
+
+
+/* カテゴリ */
+
+.category {
+  background: #ddf4fc;
+  color: #267fa7;
+
+  border: 1px solid #bde3f1;
+}
+
+
+/* 記事タイトル */
+
+.article-card h3 a {
+  color: #183f52;
+}
+
+
+.article-card h3 a:hover {
+  color: #2784ad;
+}
+
+
+/* 記事リンク */
+
+.read-more,
+.text-link {
+  color: #2784ad;
+}
+
+
+.read-more:hover,
+.text-link:hover {
+  color: #175f82;
+}
+
+
+/* -----------------------------------------
+   About部分
+----------------------------------------- */
+
+.muted-section {
+  background:
+    linear-gradient(
+      135deg,
+      #eaf8fd,
+      #f7fcff
+    );
+
+  border-top: 1px solid #d3edf7;
+  border-bottom: 1px solid #d3edf7;
+}
+
+
+/* -----------------------------------------
+   プロフィール
+----------------------------------------- */
+
+.profile-card {
+  border: 1px solid #cde9f4;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #eef9fd
+    );
+
+  box-shadow:
+    0 15px 40px rgba(36, 118, 151, 0.10);
+}
+
+
+.profile-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #72cceb,
+      #318eb5
+    );
+
+  box-shadow:
+    0 10px 25px rgba(48, 142, 180, 0.22);
+}
+
+
+/* -----------------------------------------
+   執筆・監修CTA
+----------------------------------------- */
+
+.writing-cta {
+  background:
+    linear-gradient(
+      130deg,
+      #1d6f96,
+      #319ec8 55%,
+      #6bc7e8
+    );
+}
+
+
+.writing-cta::before {
+  content: "";
+
+  position: absolute;
+
+  width: 360px;
+  height: 360px;
+
+  right: -100px;
+  top: -170px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border-radius: 50%;
+}
+
+
+/* -----------------------------------------
+   医療情報注意書き
+----------------------------------------- */
+
+.notice-section {
+  background: #edf9fd;
+  border-top: 1px solid #cfeaf5;
+}
+
+
+.notice-section p {
+  color: #456b7b;
+}
+
+
+/* -----------------------------------------
+   フッター
+----------------------------------------- */
+
+.site-footer {
+  background:
+    linear-gradient(
+      135deg,
+      #173f53,
+      #185a78
+    );
+}
+
+
+/* =========================================
+   記事ページも同じ水色系へ統一
+========================================= */
+
+.article-hero {
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(106, 203, 237, 0.25),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #ecf9fe,
+      #f9fdff
+    );
+
+  border-bottom: 1px solid #d0ebf6;
+}
+
+
+.article-category {
+  background: #dff4fc;
+  color: #267fa7;
+  border: 1px solid #bfe4f2;
+}
+
+
+.article-content h2 {
+  color: #1b6688;
+}
+
+
+.article-content h3 {
+  color: #257fa6;
+}
+
+
+.article-points {
+  background:
+    linear-gradient(
+      145deg,
+      #eaf8fd,
+      #f8fdff
+    );
+
+  border-color: #bce3f1;
+}
+
+
+.article-points-label {
+  color: #2684ad;
+}
+
+
+.toc {
+  background: #f1faff;
+  border-color: #cfeaf5;
+}
+
+
+.toc a {
+  color: #267fa7;
+}
+
+
+.article-note {
+  background: #edf9fd;
+  border-left-color: #58b9df;
+}
+
+
+.clinical-note {
+  background:
+    linear-gradient(
+      145deg,
+      #e8f7fd,
+      #f8fdff
+    );
+
+  border-color: #aedfed;
+}
+
+
+.clinical-note-label {
+  color: #2786ae;
+}
+
+
+.summary-box {
+  background:
+    linear-gradient(
+      145deg,
+      #e9f8fd,
+      #f8fdff
+    );
+
+  border-color: #a8ddec;
+}
+
+
+.references-box {
+  background: #f5fbfe;
+  border-color: #d2ebf5;
+}
+
+
+/* -----------------------------------------
+   スマホ
+----------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .hero {
+    background:
+      linear-gradient(
+        160deg,
+        #e9f8fd 0%,
+        #f9fdff 50%,
+        #eef9fd 100%
+      );
+  }
+
+
+  .hero-card {
+    box-shadow:
+      0 14px 30px rgba(42, 130, 165, 0.12);
+  }
+
+
+  .article-card.featured {
+    box-shadow:
+      0 12px 30px rgba(44, 134, 169, 0.13);
+  }
+
+}
