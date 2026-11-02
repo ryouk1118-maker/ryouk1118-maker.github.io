@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" role="img" aria-label="全身麻酔の気管挿管と歯の損傷リスク"><defs>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f8fcff"/><stop offset="1" stop-color="#eef8fc"/></linearGradient>
+ <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#45a4cb"/><stop offset="1" stop-color="#287ea6"/></linearGradient>
+ <linearGradient id="metal"><stop stop-color="#a7b8c4"/><stop offset=".45" stop-color="#f6fafc"/><stop offset="1" stop-color="#7c96a5"/></linearGradient>
+ <style>text{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;fill:#214d64}.t{font-weight:800;font-size:43px}.sub{font-size:23px;fill:#4b7186}.h{font-size:30px;font-weight:800}.body{font-size:25px}.sm{font-size:20px;fill:#607f8e}.white{fill:#fff}.warm{fill:#aa654d}.key{fill:#287da3;font-weight:800}</style>
+</defs><rect width="1200" height="840" rx="28" fill="url(#paper)"/><rect width="1200" height="115" rx="25" fill="#d8f1fb"/><rect y="91" width="1200" height="24" fill="#d8f1fb"/><text x="46" y="75" class="t">全身麻酔の気管挿管と歯の損傷リスク</text><text x="47" y="154" class="sub">上顎の前歯は、喉頭鏡などの器具が近づく部位です。</text><rect x="36" y="191" width="757" height="553" rx="28" fill="#fff" stroke="#b9dbea" stroke-width="3"/>
+<rect x="818" y="191" width="346" height="553" rx="28" fill="#fff" stroke="#b9dbea" stroke-width="3"/>
+<g transform="translate(38 145)">
+<!-- upper and lower jaw, teeth and oral cavity in intentionally simplified sagittal orientation -->
+<path d="M117 192Q155 152 210 149Q298 115 415 162Q545 166 639 224Q697 289 651 346Q613 372 556 368Q480 348 392 341Q265 381 176 371Q116 364 94 312Q82 257 117 192Z" fill="#f4c4bb" stroke="#c78e87" stroke-width="4"/>
+<path d="M111 226Q218 169 311 200Q412 215 505 246Q597 242 639 277L625 321Q542 320 468 302Q378 284 319 313Q209 345 119 299Z" fill="#f9dee0" stroke="#d29fa1" stroke-width="3"/>
+<path d="M130 235Q222 210 325 231Q435 233 529 261Q570 268 618 295Q522 286 437 281Q355 271 301 295Q200 326 130 281Z" fill="#a65f66" opacity=".48"/>
+<path d="M149 220Q229 190 319 204Q395 202 478 220" fill="none" stroke="#e9969d" stroke-width="14"/>
+<g transform="translate(188 210) scale(1)"><path d="M0 10Q-4-12 16-13L32-10Q52-18 56 10L52 33L40 58Q36 67 30 50L27 37L17 53Q10 66 6 44L2 29Z" fill="#fffefd" stroke="#668f9f" stroke-width="2.7"/></g><g transform="translate(241 207) scale(1)"><path d="M0 10Q-4-12 16-13L32-10Q52-18 56 10L52 33L40 58Q36 67 30 50L27 37L17 53Q10 66 6 44L2 29Z" fill="#fffefd" stroke="#668f9f" stroke-width="2.7"/></g><g transform="translate(293 217) scale(0.9)"><path d="M0 10Q-4-12 16-13L32-10Q52-18 56 10L52 33L40 58Q36 67 30 50L27 37L17 53Q10 66 6 44L2 29Z" fill="#fffefd" stroke="#668f9f" stroke-width="2.7"/></g>
+<!-- lower jaw and tongue -->
+<path d="M119 327Q193 373 294 352Q381 328 449 305Q531 278 593 312Q583 355 492 382Q386 399 309 418Q201 439 132 389Z" fill="#f0b8ad" stroke="#c98681" stroke-width="4"/>
+<path d="M195 352Q282 344 378 331Q470 283 531 316Q464 365 370 373Q282 383 217 377Z" fill="#dd9298" stroke="#b77077" stroke-width="3"/>
+<!-- laryngoscope handle + blade, near upper incisors not a lever against them -->
+<path d="M58 152L94 114L164 160L136 202Z" fill="url(#metal)" stroke="#667d8d" stroke-width="4"/>
+<path d="M136 187Q158 220 217 256Q310 323 434 317Q491 311 524 279L537 295Q511 341 449 351Q291 365 187 287Q133 252 118 216Z" fill="url(#metal)" stroke="#688291" stroke-width="4"/>
+<path d="M169 252Q314 336 452 329" fill="none" stroke="#f9ffff" stroke-width="6" opacity=".7"/>
+<!-- safety attention area -->
+<circle cx="222" cy="226" r="57" fill="none" stroke="#f39d5b" stroke-width="5" stroke-dasharray="9 9"/>
+<path d="M223 178L331 71L424 71" fill="none" stroke="#cf8548" stroke-width="4"/>
+<text x="337" y="58" class="h warm">上顎前歯</text>
+<path d="M374 331L430 450L566 450" fill="none" stroke="#287da3" stroke-width="4"/>
+<text x="451" y="438" class="h">喉頭鏡（模式図）</text>
+</g>
+<rect x="841" y="218" width="299" height="83" rx="20" fill="#d9eff9"/>
+<text x="860" y="252" class="h">注意したい歯</text>
+<text x="861" y="285" class="body">特に上顎前歯</text>
+<circle cx="855" cy="354" r="8" fill="#2991b6"/><text x="877" y="363" class="body">ぐらぐらする歯</text>
+<circle cx="855" cy="411" r="8" fill="#2991b6"/><text x="877" y="420" class="body">大きな詰め物・冠</text>
+<circle cx="855" cy="468" r="8" fill="#2991b6"/><text x="877" y="477" class="body">弱くなった歯</text>
+<rect x="837" y="551" width="308" height="151" rx="19" fill="#fcefe5"/>
+<text x="851" y="590" class="h warm">術前の歯科確認</text>
+<text x="851" y="633" class="body">歯の状態を伝え、</text>
+<text x="851" y="670" class="body">損傷リスクに備える</text>
+<text x="46" y="785" class="sm">※ 分かりやすくした模式図です。器具を歯に当てることを推奨するものではありません。</text>
+<text x="46" y="816" class="sm">※ 全ての全身麻酔で気管挿管が行われるわけではありません。</text></svg>
