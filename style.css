@@ -1807,3 +1807,49 @@ body {
 .writing-contact .info-box a[href^="mailto:"] { overflow-wrap: anywhere; }
 .writing-contact .button.primary { display: inline-flex; align-items: center; max-width: 100%; }
 .writing-contact-caution { font-size: 13px; line-height: 1.85; }
+
+/* 親知らず記事の医療図解（スマホで閲覧・拡大可能） */
+.article-figure {
+  margin: 28px 0 34px;
+  padding: 12px;
+  border: 1px solid #d9e9f1;
+  border-radius: 16px;
+  background: #fbfdff;
+}
+.article-figure-image-link {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+  cursor: zoom-in;
+}
+.article-figure-image-link:focus-visible {
+  outline: 3px solid #1976a6;
+  outline-offset: 3px;
+}
+.article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.article-figure figcaption {
+  margin: 12px 6px 3px;
+  color: #556975;
+  font-size: 13px;
+  line-height: 1.8;
+  text-align: left;
+}
+.figure-zoom-hint {
+  display: block;
+  margin-top: 4px;
+  color: #24718f;
+  font-size: 12px;
+}
+@media (max-width: 620px) {
+  .article-figure { margin: 22px -4px 28px; padding: 7px; border-radius: 12px; }
+  .article-figure img { border-radius: 7px; }
+  .article-figure figcaption { margin: 10px 7px 6px; font-size: 12px; }
+}
