@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1240" role="img" aria-label="糖尿病の方｜抜歯前の確認リスト"><rect width="1200" height="1240" fill="#f7fcfe"/><rect x="0" y="0" width="1200" height="115" rx="26" fill="#d9eff8"/><rect x="0" y="90" width="1200" height="25" fill="#d9eff8"/><style>
+text{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;fill:#21485d}
+.h1{font-size:47px;font-weight:800}.lead{font-size:26px;fill:#527184}
+.h2{font-size:35px;font-weight:800}.h3{font-size:30px;font-weight:700}
+.b{font-size:27px}.sm{font-size:23px;fill:#5a7080}.xs{font-size:20px;fill:#607689}
+.w{fill:white}.bl{fill:#187ea5}.warm{fill:#a15d46}.heavy{font-weight:800}
+</style><text class="h1" x="46" y="75">糖尿病の方｜抜歯前の確認リスト</text><text class="lead" x="48" y="161">安全に治療を受けるため、歯科医院で次のことを共有しましょう。</text><rect x="48" y="208" width="1104" height="160" rx="23" fill="#ffffff" stroke="#b9dce9" stroke-width="2"/>
+<circle cx="101" cy="283" r="30" fill="#d7eff8" stroke="#80c4dc" stroke-width="2"/><path d="M101 264Q123 290 101 302Q81 291 101 264Z" fill="#398cab"/>
+<text class="h2" x="157" y="277">最近のHbA1c・血糖値</text>
+<text class="b" x="158" y="328">検査結果や普段の血糖コントロールの状況</text><rect x="48" y="392" width="1104" height="160" rx="23" fill="#edf8fc" stroke="#b9dce9" stroke-width="2"/>
+<circle cx="101" cy="467" r="30" fill="#d7eff8" stroke="#80c4dc" stroke-width="2"/><g transform="translate(84 463) rotate(-37 18 5)"><rect width="36" height="18" rx="9" fill="#fff" stroke="#398cab" stroke-width="3"/><path d="M18 1v16" stroke="#398cab" stroke-width="3"/></g>
+<text class="h2" x="157" y="461">薬・インスリンの情報</text>
+<text class="b" x="158" y="512">お薬手帳、薬の変更・追加があれば伝える</text><rect x="48" y="576" width="1104" height="160" rx="23" fill="#ffffff" stroke="#b9dce9" stroke-width="2"/>
+<circle cx="101" cy="651" r="30" fill="#d7eff8" stroke="#80c4dc" stroke-width="2"/><path d="M101 631L121 668H81Z" fill="none" stroke="#398cab" stroke-width="3"/><path d="M101 644v13" stroke="#398cab" stroke-width="4"/><circle cx="101" cy="663" r="2.8" fill="#398cab"/>
+<text class="h2" x="157" y="645">低血糖の経験・合併症</text>
+<text class="b" x="158" y="696">低血糖を起こしたこと、腎臓病などの有無</text><rect x="48" y="760" width="1104" height="160" rx="23" fill="#edf8fc" stroke="#b9dce9" stroke-width="2"/>
+<circle cx="101" cy="835" r="30" fill="#d7eff8" stroke="#80c4dc" stroke-width="2"/><path d="M80 839Q101 864 122 839" fill="none" stroke="#398cab" stroke-width="4"/><path d="M80 839H122M90 815v19M110 815v19" stroke="#398cab" stroke-width="3"/>
+<text class="h2" x="157" y="829">食事の予定</text>
+<text class="b" x="158" y="880">抜歯前に食べられるか、術後も食事をとれるか</text><rect x="48" y="944" width="1104" height="160" rx="23" fill="#ffffff" stroke="#b9dce9" stroke-width="2"/>
+<circle cx="101" cy="1019" r="30" fill="#d7eff8" stroke="#80c4dc" stroke-width="2"/><rect x="83" y="1000" width="36" height="40" rx="4" fill="none" stroke="#398cab" stroke-width="3"/><path d="M93 1013h19M93 1023h19M93 1033h14" stroke="#398cab" stroke-width="3"/>
+<text class="h2" x="157" y="1013">糖尿病の通院先</text>
+<text class="b" x="158" y="1064">必要に応じて歯科医師と主治医で情報を共有</text><rect x="48" y="1145" width="1104" height="69" rx="17" fill="#e1f4fb"/><text class="b heavy" x="78" y="1191">食事・薬・インスリンは、自己判断で変更しないでください。</text></svg>

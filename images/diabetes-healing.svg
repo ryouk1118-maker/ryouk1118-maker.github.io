@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1050" role="img" aria-label="糖尿病と抜歯後の傷の治り方"><rect width="1200" height="1050" fill="#f7fcfe"/><rect x="0" y="0" width="1200" height="115" rx="26" fill="#d9eff8"/><rect x="0" y="90" width="1200" height="25" fill="#d9eff8"/><style>
+text{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;fill:#21485d}
+.h1{font-size:47px;font-weight:800}.lead{font-size:26px;fill:#527184}
+.h2{font-size:35px;font-weight:800}.h3{font-size:30px;font-weight:700}
+.b{font-size:27px}.sm{font-size:23px;fill:#5a7080}.xs{font-size:20px;fill:#607689}
+.w{fill:white}.bl{fill:#187ea5}.warm{fill:#a15d46}.heavy{font-weight:800}
+</style><text class="h1" x="46" y="75">糖尿病と抜歯後の傷の治り方</text><text class="lead" x="48" y="161">血糖コントロールの状態によって、注意すべき点が変わります。</text>
+<rect x="38" y="196" width="540" height="650" rx="27" fill="#eaf7fd" stroke="#b6ddec" stroke-width="3"/>
+<rect x="622" y="196" width="540" height="650" rx="27" fill="#fff5f0" stroke="#eed9ce" stroke-width="3"/>
+<rect x="58" y="215" width="500" height="100" rx="22" fill="#cbeaf6"/>
+<rect x="642" y="215" width="500" height="100" rx="22" fill="#f9ddd2"/>
+<circle cx="111" cy="263" r="28" fill="#228eaa"/><path d="M98 263l10 10 18-22" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+<text class="h2" x="158" y="273">血糖が安定している場合</text>
+<circle cx="695" cy="263" r="28" fill="#cb8d6f"/><path d="M695 246v22M695 280v3" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+<text class="h2" x="746" y="273">高血糖が続く場合</text>
+<g transform="translate(76 338)">
+<path d="M8 117Q100 91 148 132Q188 169 226 165Q278 171 308 132Q356 87 453 117L453 290L8 290Z" fill="#f8d8c3" stroke="#b99583" stroke-width="3"/>
+<path d="M8 117Q91 88 145 129Q183 161 225 160Q275 163 310 130Q365 88 453 117" fill="none" stroke="#ec9d9d" stroke-width="21"/>
+<path d="M147 134Q188 158 225 160Q273 162 311 135L279 231Q230 286 175 231Z" fill="#ad4d57" stroke="#bd7c72" stroke-width="3"/>
+<path d="M160 161Q220 197 293 160" fill="none" stroke="#f2a4a7" stroke-width="13"/><path d="M174 193Q229 219 281 193" fill="none" stroke="#e88d97" stroke-width="8"/>
+<path d="M27 175H125M332 175H438" stroke="#f2c0a4" stroke-width="9" opacity=".45"/>
+</g><g transform="translate(660 338)">
+<path d="M8 117Q100 91 148 132Q188 169 226 165Q278 171 308 132Q356 87 453 117L453 290L8 290Z" fill="#f8d8c3" stroke="#b99583" stroke-width="3"/>
+<path d="M8 117Q91 88 145 129Q183 161 225 160Q275 163 310 130Q365 88 453 117" fill="none" stroke="#ec9d9d" stroke-width="21"/>
+<path d="M147 134Q188 158 225 160Q273 162 311 135L279 231Q230 286 175 231Z" fill="#b66a66" stroke="#bd7c72" stroke-width="3"/>
+<path d="M164 145Q230 175 296 145" fill="none" stroke="#d37b78" stroke-width="8"/><circle cx="126" cy="114" r="10" fill="#efae76"/><circle cx="323" cy="120" r="9" fill="#efae76"/><circle cx="342" cy="150" r="7" fill="#f1bd8e"/>
+<path d="M27 175H125M332 175H438" stroke="#f2c0a4" stroke-width="9" opacity=".45"/>
+</g>
+<text class="h3" x="86" y="720">通常どおり治る方もいる</text><text class="b" x="86" y="764">血糖が安定していれば、</text><text class="b" x="86" y="803">大きな問題なく治ることも。</text>
+<text class="h3" x="670" y="720">感染や治癒遅延に注意</text><text class="b" x="670" y="764">感染しやすくなったり、</text><text class="b" x="670" y="803">傷が治るのに時間がかかることも。</text>
+<rect x="38" y="874" width="1124" height="118" rx="22" fill="#e0f3fa" stroke="#b7deec" stroke-width="2"/>
+<text class="h3" x="72" y="921">大切なのは、HbA1cの数字だけで判断しないこと。</text>
+<text class="b" x="72" y="966">最近の血糖値・治療状況・感染の有無・抜歯の難しさも確認します。</text>
+<text class="xs" x="48" y="1030">※ 一般的な模式図です。糖尿病があっても、すべての方に合併症が起こるわけではありません。</text>
+</svg>

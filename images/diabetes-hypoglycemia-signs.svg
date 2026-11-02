@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1120" role="img" aria-label="歯科治療中に気をつけたい低血糖"><rect width="1200" height="1120" fill="#f7fcfe"/><rect x="0" y="0" width="1200" height="115" rx="26" fill="#d9eff8"/><rect x="0" y="90" width="1200" height="25" fill="#d9eff8"/><style>
+text{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;fill:#21485d}
+.h1{font-size:47px;font-weight:800}.lead{font-size:26px;fill:#527184}
+.h2{font-size:35px;font-weight:800}.h3{font-size:30px;font-weight:700}
+.b{font-size:27px}.sm{font-size:23px;fill:#5a7080}.xs{font-size:20px;fill:#607689}
+.w{fill:white}.bl{fill:#187ea5}.warm{fill:#a15d46}.heavy{font-weight:800}
+</style><text class="h1" x="46" y="75">歯科治療中に気をつけたい低血糖</text><text class="lead" x="48" y="161">空腹や薬の作用などが重なると、低血糖を起こすことがあります。</text><rect x="42" y="208" width="354" height="212" rx="22" fill="#fff" stroke="#b7dfec" stroke-width="3"/>
+<circle cx="219" cy="296" r="65" fill="#e5f5fa"/>
+<path d="M219 264q-30 35 0 53q30-18 0-53Z" fill="#65b4d5" stroke="#2680a9" stroke-width="3"/>
+<text class="h2" x="219" y="389" text-anchor="middle">冷や汗</text><rect x="423" y="208" width="354" height="212" rx="22" fill="#fff" stroke="#b7dfec" stroke-width="3"/>
+<circle cx="600" cy="296" r="65" fill="#e5f5fa"/>
+<path d="M560 314l17-40 15 44 17-40 16 42 14-30" stroke="#2680a9" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="h2" x="600" y="389" text-anchor="middle">手のふるえ</text><rect x="804" y="208" width="354" height="212" rx="22" fill="#fff" stroke="#b7dfec" stroke-width="3"/>
+<circle cx="981" cy="296" r="65" fill="#e5f5fa"/>
+<path d="M981 333C925 291 961 263 981 288C1001 263 1037 291 981 333Z" fill="#f8afaa" stroke="#c97676" stroke-width="3"/><path d="M956 303h12l8-11 11 21 8-10h15" fill="none" stroke="#fff" stroke-width="3"/>
+<text class="h2" x="981" y="389" text-anchor="middle">動悸</text><rect x="233" y="456" width="354" height="212" rx="22" fill="#fff" stroke="#b7dfec" stroke-width="3"/>
+<circle cx="410" cy="544" r="65" fill="#e5f5fa"/>
+<circle cx="410" cy="549" r="26" fill="#f5d9bc" stroke="#ba9a7b" stroke-width="3"/><path d="M400 541l7 5-7 5M420 541l7 5-7 5" stroke="#3b708a" stroke-width="3" fill="none"/><path d="M402 563q8-10 16 0" stroke="#3b708a" stroke-width="3" fill="none"/><path d="M383 511q30-23 57 0" stroke="#6ab6d4" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+<text class="h2" x="410" y="637" text-anchor="middle">めまい</text><rect x="614" y="456" width="354" height="212" rx="22" fill="#fff" stroke="#b7dfec" stroke-width="3"/>
+<circle cx="791" cy="544" r="65" fill="#e5f5fa"/>
+<path d="M769 557h44l-5 24h-34z" fill="#fff" stroke="#367f9e" stroke-width="3"/><path d="M780 533l11-13 12 13" stroke="#367f9e" stroke-width="4" fill="none"/><circle cx="791" cy="548" r="7" fill="#70afc7"/>
+<text class="h2" x="791" y="637" text-anchor="middle">ぼんやりする</text>
+<rect x="42" y="708" width="1116" height="295" rx="26" fill="#e1f2fa" stroke="#9accdf" stroke-width="3"/>
+<text class="h2" x="79" y="763">症状に気づいたら</text>
+<circle cx="87" cy="815" r="8" fill="#228bab"/><text class="b" x="111" y="826">すぐに歯科医師・スタッフへ伝える。血糖を確認する。</text>
+<circle cx="87" cy="871" r="8" fill="#228bab"/><text class="b" x="111" y="882">意識があり安全に飲み込める場合は、必要に応じて糖分を補給。</text>
+<circle cx="87" cy="927" r="8" fill="#d88675"/><text class="b" x="111" y="938">意識がおかしい場合は口から飲ませず、すぐに救急対応。</text>
+<text class="sm" x="46" y="1047">※ 無症状の低血糖もあります。特にインスリン等を使用中の方は事前に相談を。</text>
+<text class="sm" x="46" y="1083">※ 具体的な低血糖対処法は、普段の主治医の指示や歯科スタッフの案内を優先します。</text>
+</svg>
