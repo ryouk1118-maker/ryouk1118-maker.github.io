@@ -1799,3 +1799,11 @@ body {
   .topic-card { padding: 23px 22px; }
   .decision-table th, .decision-table td { padding: 12px; }
 }
+
+/* 執筆・監修のメール問い合わせ欄 */
+.writing-contact { margin-top: 40px; }
+.writing-contact .info-box p { margin: 0 0 14px; }
+.writing-contact .info-box p:last-child { margin-bottom: 0; }
+.writing-contact .info-box a[href^="mailto:"] { overflow-wrap: anywhere; }
+.writing-contact .button.primary { display: inline-flex; align-items: center; max-width: 100%; }
+.writing-contact-caution { font-size: 13px; line-height: 1.85; }
