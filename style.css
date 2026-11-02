@@ -1764,3 +1764,10 @@ body {
 /* 読みやすさとキーボード操作の改善 */
 .references-box li { color: #455d69; font-size: 14px; }
 .site-header a:focus-visible, .article-content a:focus-visible, .prose a:focus-visible { outline: 3px solid #267fa7; outline-offset: 3px; border-radius: 3px; }
+
+/* 著者イラスト（デフォルメ似顔絵） */
+.author-profile-intro { display: flex; align-items: center; gap: 28px; margin-bottom: 42px; padding: 24px; border: 1px solid #d6eaf2; border-radius: 20px; background: #f5fbfe; }
+.author-profile-intro img { width: 160px; height: 160px; flex: 0 0 160px; object-fit: contain; border-radius: 18px; background: #e9f5fa; }
+.author-profile-intro-text p { margin: 0; }
+.profile-icon.author-avatar, .article-author-icon.author-avatar { display: block; object-fit: cover; padding: 0; border: 1px solid #d1e6ee; background: #e9f5fa; }
+@media (max-width: 520px) { .author-profile-intro { flex-direction: column; gap: 14px; text-align: left; padding: 20px; } .author-profile-intro img { width: 140px; height: 140px; flex-basis: auto; align-self: center; } }
