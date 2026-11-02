@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1520" role="img" aria-label="抜歯前の確認フロー"><rect width="1200" height="1520" fill="#f6fbfd"/><rect width="1200" height="110" fill="#daf1fa"/><rect y="108" width="1200" height="4" fill="#80c9df"/><style>text{font-family:"Noto Sans CJK JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;fill:#20485e}.title{font-size:43px;font-weight:800}.sub{font-size:25px;fill:#576e7b}.head{font-size:34px;font-weight:800}.body{font-size:29px}.small{font-size:22px;fill:#647a86}.white{fill:#fff}.bold{font-weight:800}.label{font-size:25px;font-weight:700}</style><text class="title" x="55" y="73">抜歯前の確認フロー</text><text class="sub" x="58" y="155">必要な情報を整理して、安全な抜歯の計画につなげます。</text><rect x="58" y="207" width="1084" height="200" rx="25" fill="#fff" stroke="#cbe3ed" stroke-width="3"/>
+<circle cx="137" cy="290" r="53" fill="#d9f0f9"/><text x="119" y="307" font-size="51px" fill="#227ea2" font-weight="800">1</text>
+<text class="head" x="225" y="279">服用している薬を確認</text><text class="body" x="225" y="340">薬の名前・服用理由・複数の薬の併用</text>
+
+<path d="M600 415v28l-14-10 14 23 14-23-14 10" fill="#65b1ce" stroke="#65b1ce" stroke-width="4"/><rect x="58" y="457" width="1084" height="200" rx="25" fill="#fff" stroke="#cbe3ed" stroke-width="3"/>
+<circle cx="137" cy="540" r="53" fill="#d9f0f9"/><text x="119" y="557" font-size="51px" fill="#227ea2" font-weight="800">2</text>
+<text class="head" x="225" y="529">全身状態を確認</text><text class="body" x="225" y="590">出血歴・持病・腎機能など</text>
+<text class="small" x="225" y="631">ワルファリンではPT-INRの確認が重要</text>
+<path d="M600 665v28l-14-10 14 23 14-23-14 10" fill="#65b1ce" stroke="#65b1ce" stroke-width="4"/><rect x="58" y="707" width="1084" height="200" rx="25" fill="#fff" stroke="#cbe3ed" stroke-width="3"/>
+<circle cx="137" cy="790" r="53" fill="#d9f0f9"/><text x="119" y="807" font-size="51px" fill="#227ea2" font-weight="800">3</text>
+<text class="head" x="225" y="779">抜歯の内容を確認</text><text class="body" x="225" y="840">抜く本数・骨削除の有無・出血の危険度</text>
+
+<path d="M600 915v28l-14-10 14 23 14-23-14 10" fill="#65b1ce" stroke="#65b1ce" stroke-width="4"/><rect x="58" y="957" width="1084" height="200" rx="25" fill="#fff" stroke="#cbe3ed" stroke-width="3"/>
+<circle cx="137" cy="1040" r="53" fill="#d9f0f9"/><text x="119" y="1057" font-size="51px" fill="#227ea2" font-weight="800">4</text>
+<text class="head" x="225" y="1029">処置の方針を決める</text><text class="body" x="225" y="1090">歯科医師が判断し、必要なら処方医へ相談</text>
+
+<rect x="58" y="1240" width="1084" height="150" rx="23" fill="#e1f5fb" stroke="#a7d6e8" stroke-width="3"/>
+<text class="head" x="94" y="1306">最後に：局所止血と術後の説明</text>
+<text class="body" x="94" y="1353">ガーゼ圧迫・縫合・止血材などを必要に応じて組み合わせます。</text>
+<text class="small" x="58" y="1464">※ 自分で薬を中止せず、お薬手帳を持って歯科医院で相談しましょう。</text>
+</svg>
