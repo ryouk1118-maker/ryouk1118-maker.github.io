@@ -19,4 +19,4 @@ text{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,s
 <text class="b" x="158" y="880">抜歯前に食べられるか、術後も食事をとれるか</text><rect x="48" y="944" width="1104" height="160" rx="23" fill="#ffffff" stroke="#b9dce9" stroke-width="2"/>
 <circle cx="101" cy="1019" r="30" fill="#d7eff8" stroke="#80c4dc" stroke-width="2"/><rect x="83" y="1000" width="36" height="40" rx="4" fill="none" stroke="#398cab" stroke-width="3"/><path d="M93 1013h19M93 1023h19M93 1033h14" stroke="#398cab" stroke-width="3"/>
 <text class="h2" x="157" y="1013">糖尿病の通院先</text>
-<text class="b" x="158" y="1064">必要に応じて歯科医師と主治医で情報を共有</text><rect x="48" y="1145" width="1104" height="69" rx="17" fill="#e1f4fb"/><text class="b heavy" x="78" y="1191">食事や薬・インスリンは、自己判断で抜いたり中止したりしないでください。</text></svg>
+<text class="b" x="158" y="1064">必要に応じて歯科医師と主治医で情報を共有</text><rect x="48" y="1145" width="1104" height="69" rx="17" fill="#e1f4fb"/><text class="b heavy" x="78" y="1191">食事・薬・インスリンは、自己判断で変更しないでください。</text></svg>
