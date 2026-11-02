@@ -1682,7 +1682,7 @@ body {
 
 
 .toc a {
-  color: #267fa7;
+  color: #165d82;
 }
 
 
@@ -1705,7 +1705,8 @@ body {
 
 
 .clinical-note-label {
-  color: #2786ae;
+  color: #ffffff;
+  background: #165d82;
 }
 
 
@@ -1759,3 +1760,7 @@ body {
   }
 
 }
+
+/* 読みやすさとキーボード操作の改善 */
+.references-box li { color: #455d69; font-size: 14px; }
+.site-header a:focus-visible, .article-content a:focus-visible, .prose a:focus-visible { outline: 3px solid #267fa7; outline-offset: 3px; border-radius: 3px; }
