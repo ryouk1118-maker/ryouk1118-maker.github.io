@@ -1853,3 +1853,92 @@ body {
   .article-figure img { border-radius: 7px; }
   .article-figure figcaption { margin: 10px 7px 6px; font-size: 12px; }
 }
+
+
+/* ホームの編集案内と図解付き記事一覧：他の記事本文には影響しない */
+.hero-editorial-note {
+  margin: 24px 0 0;
+  max-width: 590px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #496d80;
+}
+.hero-editorial-note a {
+  color: #1a678c;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-grid .article-card {
+  padding: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.article-card-media {
+  height: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #edf8fd;
+  border-bottom: 1px solid #d5eaf4;
+}
+.article-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 200ms ease;
+}
+.article-card-media:hover img {
+  transform: scale(1.025);
+}
+.article-card-media:focus-visible,
+.hero-editorial-note a:focus-visible,
+.article-card h3 a:focus-visible,
+.article-card .read-more:focus-visible {
+  outline: 3px solid #237ca5;
+  outline-offset: -4px;
+}
+.article-card-media--no-image {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+  background: linear-gradient(135deg, #e5f4f9, #f2f8fb 55%, #e1eef6);
+  text-align: center;
+}
+.article-card-media-label {
+  color: #256c8a;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .09em;
+}
+.article-card-media-title {
+  max-width: 90%;
+  color: #234e62;
+  font-size: clamp(18px, 2.5vw, 24px);
+  line-height: 1.5;
+  font-weight: 750;
+}
+.article-grid .article-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 26px 27px;
+}
+.article-card-body .article-meta {
+  margin-bottom: 12px;
+}
+.article-card-body .read-more {
+  align-self: flex-start;
+}
+@media (max-width: 760px) {
+  .article-card-media { height: 180px; }
+  .article-grid .article-card-body { padding: 22px 23px 25px; }
+  .hero-editorial-note { font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .article-card-media img { transition: none; }
+  .article-card-media:hover img { transform: none; }
+}
